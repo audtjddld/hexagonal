@@ -1,7 +1,7 @@
 package com.hexagonal.demo.order.application;
 
-import com.hexagonal.demo.order.adapter.in.FindOrderUseCase;
-import com.hexagonal.demo.order.adapter.out.LoadOrderPort;
+import com.hexagonal.demo.order.port.in.FindOrderUseCase;
+import com.hexagonal.demo.order.port.out.LoadOrderPort;
 import com.hexagonal.demo.order.controller.model.FindOrderCmd;
 import com.hexagonal.demo.order.domain.Order;
 import org.springframework.stereotype.Service;

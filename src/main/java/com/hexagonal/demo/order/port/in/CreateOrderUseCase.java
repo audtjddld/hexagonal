@@ -1,4 +1,4 @@
-package com.hexagonal.demo.order.adapter.in;
+package com.hexagonal.demo.order.port.in;
 
 import com.hexagonal.demo.order.controller.model.CreateOrderCmd;
 import com.hexagonal.demo.order.domain.Order;

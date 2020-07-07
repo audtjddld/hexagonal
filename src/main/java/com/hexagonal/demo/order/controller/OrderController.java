@@ -1,7 +1,7 @@
 package com.hexagonal.demo.order.controller;
 
-import com.hexagonal.demo.order.adapter.in.CreateOrderUseCase;
-import com.hexagonal.demo.order.adapter.in.FindOrderUseCase;
+import com.hexagonal.demo.order.port.in.CreateOrderUseCase;
+import com.hexagonal.demo.order.port.in.FindOrderUseCase;
 import com.hexagonal.demo.order.controller.model.CreateOrderCmd;
 import com.hexagonal.demo.order.controller.model.FindOrderCmd;
 import com.hexagonal.demo.order.domain.Order;

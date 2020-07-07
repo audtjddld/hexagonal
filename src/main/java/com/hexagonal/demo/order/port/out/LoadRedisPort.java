@@ -1,4 +1,4 @@
-package com.hexagonal.demo.order.adapter.out;
+package com.hexagonal.demo.order.port.out;
 
 import reactor.core.publisher.Mono;
 

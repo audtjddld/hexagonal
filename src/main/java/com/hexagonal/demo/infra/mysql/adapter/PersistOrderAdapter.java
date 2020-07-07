@@ -1,6 +1,6 @@
 package com.hexagonal.demo.infra.mysql.adapter;
 
-import com.hexagonal.demo.order.adapter.out.PersistOrderPort;
+import com.hexagonal.demo.order.port.out.PersistOrderPort;
 import com.hexagonal.demo.order.domain.Order;
 import org.springframework.stereotype.Component;
 import javax.transaction.Transactional;

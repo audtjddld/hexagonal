@@ -1,6 +1,6 @@
 package com.hexagonal.demo.infra.redis.adapter;
 
-import com.hexagonal.demo.order.adapter.out.LoadRedisPort;
+import com.hexagonal.demo.order.port.out.LoadRedisPort;
 import org.springframework.data.redis.core.ReactiveRedisTemplate;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
