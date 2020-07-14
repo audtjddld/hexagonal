@@ -1,4 +1,4 @@
-package com.hexagonal.demo.order.controller.model;
+package com.hexagonal.demo.order.port.command;
 
 import lombok.Getter;
 

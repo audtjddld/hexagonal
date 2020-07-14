@@ -1,9 +1,9 @@
-package com.hexagonal.demo.order.controller;
+package com.hexagonal.demo.order.port.in;
 
-import com.hexagonal.demo.order.port.in.CreateOrderUseCase;
-import com.hexagonal.demo.order.port.in.FindOrderUseCase;
-import com.hexagonal.demo.order.controller.model.CreateOrderCmd;
-import com.hexagonal.demo.order.controller.model.FindOrderCmd;
+import com.hexagonal.demo.order.application.port.in.CreateOrderUseCase;
+import com.hexagonal.demo.order.application.port.in.FindOrderUseCase;
+import com.hexagonal.demo.order.port.command.CreateOrderCmd;
+import com.hexagonal.demo.order.port.command.FindOrderCmd;
 import com.hexagonal.demo.order.domain.Order;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

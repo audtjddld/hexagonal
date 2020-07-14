@@ -1,6 +1,7 @@
-package com.hexagonal.demo.infra.mysql.adapter;
+package com.hexagonal.demo.infra.mysql.adapter.out;
 
-import com.hexagonal.demo.order.port.out.LoadOrderPort;
+import com.hexagonal.demo.infra.mysql.OrderRepository;
+import com.hexagonal.demo.order.application.port.out.LoadOrderPort;
 import com.hexagonal.demo.order.domain.Order;
 import org.springframework.stereotype.Component;
 

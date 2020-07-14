@@ -1,7 +1,7 @@
-package com.hexagonal.demo.infra.redis.controller;
+package com.hexagonal.demo.infra.redis.port.in;
 
-import com.hexagonal.demo.order.port.out.LoadRedisPort;
-import com.hexagonal.demo.order.port.out.PersistRedisPort;
+import com.hexagonal.demo.order.application.port.out.LoadRedisPort;
+import com.hexagonal.demo.order.application.port.out.PersistRedisPort;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

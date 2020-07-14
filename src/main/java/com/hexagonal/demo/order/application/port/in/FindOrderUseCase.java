@@ -1,6 +1,6 @@
-package com.hexagonal.demo.order.port.in;
+package com.hexagonal.demo.order.application.port.in;
 
-import com.hexagonal.demo.order.controller.model.FindOrderCmd;
+import com.hexagonal.demo.order.port.command.FindOrderCmd;
 import com.hexagonal.demo.order.domain.Order;
 
 public interface FindOrderUseCase {
